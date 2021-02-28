@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Checkout of the product
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 2, Errors: 0, Skipped: 3, Time elapsed: 47.817 s <<< FAILURE! - in Checkout of the product
+I click on place order after verifying price above(Checkout of the product)  Time elapsed: 0.251 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[36]0> but was:<[144]0>
+
+Checkout of the product  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[36]0> but was:<[144]0>
+

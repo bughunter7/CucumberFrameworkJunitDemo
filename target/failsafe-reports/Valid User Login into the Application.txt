@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Valid User Login into the Application
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.678 s - in Valid User Login into the Application

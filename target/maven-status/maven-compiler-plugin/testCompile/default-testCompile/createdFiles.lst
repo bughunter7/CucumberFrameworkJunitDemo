@@ -1,0 +1,7 @@
+stepdefinitions\LoginSteps.class
+testrunners\MyTestRunner.class
+stepdefinitions\ContactusSteps.class
+stepdefinitions\CartSteps.class
+AppHooks\ApplicationHooks.class
+stepdefinitions\CategorySteps.class
+stepdefinitions\CheckoutSteps.class
