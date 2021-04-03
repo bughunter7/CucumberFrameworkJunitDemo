@@ -4,6 +4,7 @@ import org.junit.Assert;
 
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.genericutility.util.GenericUtil;
 import com.pages.CartPage;
 import com.pages.CheckoutPage;
 import com.pages.HomePage;
@@ -80,7 +81,9 @@ public class CartSteps {
 	@And("^I click on add to cart$")
 	public void i_click_on_add_to_cart() throws Throwable {
 
-		pp.addtocart();
+		//pp.addtocart();
+		
+		GenericUtil.objClick(ProductdetailsPage.addcart());
 
 	}
 

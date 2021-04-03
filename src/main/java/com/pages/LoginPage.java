@@ -2,6 +2,7 @@ package com.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -9,7 +10,7 @@ import com.qa.factory.DriverFactory;
 
 public class LoginPage {
 
-	private WebDriver driver;
+	private static WebDriver driver;
 	WebDriverWait loader = new WebDriverWait(DriverFactory.getDriver(), 10);
 
 	// Constructors
@@ -22,7 +23,7 @@ public class LoginPage {
 	By loginlink = By.xpath("//*[@id='login2']");
 	By username = By.xpath("//*[@id='loginusername']");
 	By password = By.xpath("//*[@id='loginpassword']");
-	By loginbutton = By.xpath("((//*[@class='modal-footer'])[3]/button)[2]");
+	static By loginbutton = By.xpath("((//*[@class='modal-footer'])[3]/button)[2]");
 	By postloginusername = By.xpath("//*[@id='nameofuser']");
 
 	By popup = By.xpath("(//*[@class='modal-content'])[3]/div/H5");
@@ -63,4 +64,7 @@ public class LoginPage {
 
 	}
 
+	public static WebElement logbutton() {
+		return driver.findElement(loginbutton);
+	}
 }

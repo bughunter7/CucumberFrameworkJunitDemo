@@ -1,92 +1,76 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "5953439b-1d77-4d9d-9c27-ff324fd21752",
-    "feature": "To Test Checkout of the product",
-    "scenario": "Checkout of the product",
-    "start": 1614499695241,
-    "group": 17,
+    "id": "69fdf0ed-74cc-41fb-b4b3-a2867a32df54",
+    "feature": "To Test Cart of the product",
+    "scenario": "Cart of the product",
+    "start": 1617457520177,
+    "group": 1,
     "content": "",
     "tags": "",
-    "end": 1614499742333,
+    "end": 1617457550309,
+    "className": "passed"
+  },
+  {
+    "id": "57bd9b7d-98a6-4171-9808-669253f18d21",
+    "feature": "To Test Category of the product",
+    "scenario": "verify the products in the categories",
+    "start": 1617457550339,
+    "group": 1,
+    "content": "",
+    "tags": "",
+    "end": 1617457564462,
+    "className": "passed"
+  },
+  {
+    "id": "c6e17c3a-fe9b-46e7-b09b-423fa7edaace",
+    "feature": "To Test Contactus",
+    "scenario": "Contactus to submit",
+    "start": 1617457593433,
+    "group": 1,
+    "content": "",
+    "tags": "",
+    "end": 1617457611099,
+    "className": "passed"
+  },
+  {
+    "id": "8001eeb2-04cd-4f1c-bd40-29ff80ea3e79",
+    "feature": "To Test Contactus",
+    "scenario": "Contactus to submit",
+    "start": 1617457611122,
+    "group": 1,
+    "content": "",
+    "tags": "",
+    "end": 1617457628921,
+    "className": "passed"
+  },
+  {
+    "id": "267fee70-d2aa-401c-8700-dd989bd69117",
+    "feature": "To Test Checkout of the product",
+    "scenario": "Checkout of the product",
+    "start": 1617457564481,
+    "group": 1,
+    "content": "",
+    "tags": "",
+    "end": 1617457593401,
     "className": "failed"
   },
   {
-    "id": "78502dbe-49a0-4f86-a2bf-e7d5b966f5e0",
-    "feature": "To Test Contactus",
-    "scenario": "Contactus to submit",
-    "start": 1614499730634,
-    "group": 18,
-    "content": "",
-    "tags": "",
-    "end": 1614499752936,
-    "className": "passed"
-  },
-  {
-    "id": "4b6e4f92-4734-444e-aaa1-9ee7257d1aa2",
-    "feature": "To Test Category of the product",
-    "scenario": "verify the products in the categories",
-    "start": 1614499695234,
-    "group": 16,
-    "content": "",
-    "tags": "",
-    "end": 1614499730375,
-    "className": "passed"
-  },
-  {
-    "id": "1ea7d853-5835-4d20-8206-0ae47dda506b",
-    "feature": "To Test Contactus",
-    "scenario": "Contactus to submit",
-    "start": 1614499695027,
-    "group": 18,
-    "content": "",
-    "tags": "",
-    "end": 1614499730620,
-    "className": "passed"
-  },
-  {
-    "id": "fab16695-8c5d-4933-8c81-fc0da3bc2ffa",
-    "feature": "To Test Cart of the product",
-    "scenario": "Cart of the product",
-    "start": 1614499695223,
-    "group": 15,
-    "content": "",
-    "tags": "",
-    "end": 1614499742123,
-    "className": "passed"
-  },
-  {
-    "id": "c6e8b1ab-07e3-4e88-b2ed-3f3e00552169",
+    "id": "28e9809d-3793-4554-8d32-93f9501e423a",
     "feature": "To Test Login of the application",
     "scenario": "Valid User Login into the Application",
-    "start": 1614499695211,
-    "group": 19,
+    "start": 1617457628933,
+    "group": 1,
     "content": "",
     "tags": "",
-    "end": 1614499719819,
+    "end": 1617457637801,
     "className": "passed"
   }
 ]);
 CucumberHTML.timelineGroups.pushArray([
   {
-    "id": 15,
-    "content": "Thread[pool-1-thread-1,5,main]"
-  },
-  {
-    "id": 16,
-    "content": "Thread[pool-1-thread-2,5,main]"
-  },
-  {
-    "id": 17,
-    "content": "Thread[pool-1-thread-3,5,main]"
-  },
-  {
-    "id": 18,
-    "content": "Thread[pool-1-thread-4,5,main]"
-  },
-  {
-    "id": 19,
-    "content": "Thread[pool-1-thread-5,5,main]"
+    "id": 1,
+    "content": "Thread[main,5,main]"
   }
 ]);
 });

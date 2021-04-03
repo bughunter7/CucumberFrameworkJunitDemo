@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.junit.Assert;
 
+import com.genericutility.util.GenericUtil;
 import com.pages.LoginPage;
 import com.qa.factory.DriverFactory;
 import com.qa.util.Webwait;
@@ -65,6 +66,7 @@ public class LoginSteps {
 
 	@Then("^user click on loginbutton$")
 	public void user_click_on_loginbutton() throws Throwable {
-		lp.loginbutton();
+	//	lp.loginbutton();
+		GenericUtil.objClick(LoginPage.logbutton());
 	}
 }
